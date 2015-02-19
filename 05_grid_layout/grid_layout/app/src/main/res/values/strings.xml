@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">grid_layout</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_text_left">left</string>
+    <string name="button_text_right">right</string>
+    <string name="button_text_center">center</string>
+    <string name="button_text_bottom">bottom</string>
+</resources>
