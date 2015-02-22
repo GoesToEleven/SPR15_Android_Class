@@ -1,7 +1,7 @@
 package com.example.toddmcleod.memecreator;
 
 import android.app.Activity;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -13,6 +13,7 @@ import android.widget.EditText;
 /**
  * Created by toddmcleod on 2/18/15.
  */
+
 public class TopSectionFragment extends Fragment {
 
     private static EditText topTextInput;
@@ -27,7 +28,7 @@ public class TopSectionFragment extends Fragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        try{
+        try {
             activityCommander = (TopSectionListener) activity;
         } catch (ClassCastException e) {
             throw new ClassCastException(activity.toString());
@@ -44,17 +45,17 @@ public class TopSectionFragment extends Fragment {
         final Button button = (Button) view.findViewById(R.id.button);
 
         button.setOnClickListener(
-            new View.OnClickListener() {
-                public void onClick(View v) {
-                    buttonClicked(v);
+                new View.OnClickListener() {
+                    public void onClick(View v) {
+                        buttonClicked(v);
+                    }
                 }
-            }
         );
 
         return view;
     }
 
-    public void buttonClicked(View view){
+    public void buttonClicked(View view) {
         activityCommander.createMeme(topTextInput.getText().toString(), bottomTextInput.getText().toString());
     }
 }
