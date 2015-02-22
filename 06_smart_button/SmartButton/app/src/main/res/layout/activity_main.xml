@@ -18,21 +18,26 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="130dp"/>
 
-    <Button
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_text"
-        android:id="@+id/buckysButton"
-        android:layout_centerVertical="true"
-        android:layout_toLeftOf="@+id/buckysText"
-        android:layout_toStartOf="@+id/buckysText"/>
+        android:layout_below="@+id/buckysText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:gravity="center_horizontal">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button2_text"
-        android:id="@+id/toddsButton"
-        android:layout_alignTop="@+id/buckysButton"
-        android:layout_toRightOf="@+id/buckysButton"
-        android:layout_toEndOf="@+id/buckysButton"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text"
+            android:id="@+id/buckysButton"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button2_text"
+            android:id="@+id/toddsButton"/>
+    </LinearLayout>
+
 </RelativeLayout>
