@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GesturesAndButtons</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_click_me">Click Me</string>
+    <string name="text_todds_text_field">THIS WILL SHOW SOMETHING</string>
+</resources>
