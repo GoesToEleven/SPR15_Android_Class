@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009900"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Apples"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Please fill out"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:hint="first name" />
+
+    <EditText
+        android:id="@+id/addressText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:hint="address" />
+
+    <EditText
+        android:id="@+id/cityText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:hint="city" />
+
+    <EditText
+        android:id="@+id/stateText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:hint="state" />
+
+    <EditText
+        android:id="@+id/zipText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:hint="zip" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submitButton"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

@@ -56,10 +56,7 @@ public class MainActivity extends ActionBarActivity {
         sizeRules.width = 450;
         sizeRules.height = 300;
         buckysButton.setLayoutParams(sizeRules);
+
     }
-
-    
-
-
 
 }
